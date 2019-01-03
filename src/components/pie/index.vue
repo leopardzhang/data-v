@@ -1,5 +1,5 @@
 <template>
-    <div class="pie temp">
+    <div class="pie temp" :style="{ left: left + 'px', top: top + 'px' }">
         <div ref="chart" :style="{ width: width + 'px', height: height + 'px' }"></div>
     </div>
 </template>

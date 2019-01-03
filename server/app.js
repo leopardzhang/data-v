@@ -85,5 +85,7 @@ app.get('/circle', (req, res) => {
 	});
 });
 
+app.use(express.static('www'));
+
 console.log('server is running at localhost:8888');
 app.listen(8888);
